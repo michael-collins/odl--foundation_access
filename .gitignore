@@ -1,0 +1,12 @@
+*.html
+humans.txt
+robots.txt
+_notes/**
+**/_notes
+**/_notes/dwsync.xml
+.sass-cache
+node_modules
+.bin
+bower_components
+sftp-config.json
+
