@@ -15,7 +15,7 @@
       <div class="inner-wrap">
         <?php if (isset($cis_lmsless['admin_status_bar']) && !empty($cis_lmsless['admin_status_bar'])) : ?>
          <!-- Admin Status Bar -->
-         <div class="row full admin-status-bar">
+         <div class="row full admin-status-bar divider-bottom">
             <div class="columns small-12">
             <?php foreach($cis_lmsless['admin_status_bar'] as $admin_status_msg_key => $admin_status_msg) : ?>
             <span class="<?php print $admin_status_msg_key;?>-label"><?php print $admin_status_msg[0];?>: </span>

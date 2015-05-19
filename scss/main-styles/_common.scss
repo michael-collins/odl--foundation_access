@@ -22,3 +22,6 @@
 .divider-right {
 	border-right:$top-bar-border-width solid darken($etb-nav-bg-color, 5%);
 }
+.divider-bottom {
+	border-bottom:$top-bar-border-width solid darken($etb-nav-bg-color, 5%);
+}
