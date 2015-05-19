@@ -187,6 +187,10 @@ footer p {
 
 // User context-aware admin bar
 .admin-status-bar span {
+	a {
+		@extend %droid-serif-italic;
+	}
+
 	&.course-section-label,
 	&.user-role-label,
 	&.current-user-id-label {
